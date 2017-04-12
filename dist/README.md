@@ -2,7 +2,7 @@
 
 ## Viewing the website
 * Online at : https://zimann.github.io/ 
-* Locally on your machine by downloading the repository files and double-clicking the **index.html** file
+* Locally on your machine by downloading the repository files and opening the **index.html** file in your browser
 
 ## Tools Used
 * Grunt  (**Gruntfile.js** and **package.json** are in the root folder)
