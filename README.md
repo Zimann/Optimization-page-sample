@@ -1,6 +1,6 @@
 # Pizzeria Page Optimizations
 
-## Tools Used
+### Tools Used
 * Grunt  (**Gruntfile.js** and **package.json** are in the root folder)
 * Optimizilla service - for image compression (Link: http://optimizilla.com/)
 * Adobe Photoshop (CS3) - for image resizing
