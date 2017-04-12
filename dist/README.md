@@ -38,8 +38,8 @@
 
 * **JavaScript modifications**
     * Modifications have been done in two places in the main.js file and are marked with a capital **Z** at the beginninng of the comment: 
-        * The first modifications are at line: **538**, **544**, 
-        * The second modifications are at line: **476**, **479**, **482**, **571**, **572**, **574**
+        * The first modifications are at lines: **538**, **544**, 
+        * The second modifications are at lines: **476**, **479**, **482**, **571**, **572**, **574**
     
 
  
