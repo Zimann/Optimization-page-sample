@@ -472,8 +472,8 @@ var resizePizzas = function(size) {
 
     function changePizzaSizes(size) {
 
-        //Z - placed the pizza selector outside the loop
-        var pizzaContainer = document.querySelectorAll(".randomPizzaContainer");
+        //Z - placed the pizza selector outside the loop and changed the selection method to getElementsByClassName
+        var pizzaContainer = document.getElementsByClassName("randomPizzaContainer");
 
         //Z - called the function determineDx() with the returning result outside the loop and used the first element from our selection as an argument
         var dx = determineDx(pizzaContainer[0], size);
@@ -499,8 +499,10 @@ var resizePizzas = function(size) {
 window.performance.mark("mark_start_generating"); // collect timing data
 
 // This for-loop actually creates and appends all of the pizzas when the page loads
+
+//Z -moved the element selection outside the for loop
+var pizzasDiv = document.getElementById("randomPizzas");
 for (var i = 2; i < 100; i++) {
-    var pizzasDiv = document.getElementById("randomPizzas");
     pizzasDiv.appendChild(pizzaElementGenerator(i));
 }
 
@@ -533,7 +535,7 @@ function logAverageFrame(times) { // times is the array of User Timing measureme
 function updatePositions() {
 
     //Z- moved the items selection out of the for loop
-    var items = document.querySelectorAll('.mover');
+    var items = document.getElementsByClassName('mover');
 
     frame++;
     window.performance.mark("mark_start_frame");
@@ -564,7 +566,12 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
     var cols = 8;
     var s = 256;
-    for (var i = 0; i < 200; i++) {
+
+    //Z - calculating a more exact number of required pizzas based on the height of the window
+    var row = window.outerHeight / s;
+    var requiredPizzas = row * cols;
+
+    for (var i = 0; i < requiredPizzas; i++) {
         var elem = document.createElement('img');
         elem.className = 'mover';
         elem.src = "images/pizza.png";
