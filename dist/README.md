@@ -21,7 +21,11 @@
 
 
 ### Modifications done to score above 90 on Page Speed Insights 
-
+* Compressed the images on the index.html page
+* Served a new 100px width compressed image with the pizzeria on the index.html
+* On the same page inlined the minified **style.css** and **print.css**
+* Loaded the font asynchronously with WebFontLoader (Link: https://www.lockedowndesign.com/load-google-fonts-asynchronously-for-page-speed/)
+* Linked the two script tags related to google analytics asynchronously by using the **async** property within their script tags
 * Resized the pizzeria original image into two separate smaller ones (360px and 720px)
 * Compressed all the present images (pizzeria.jpg and pizza.png) from the page pizza.html
 * Minified style.css, bootstrap.grid.css, as well as main.js
