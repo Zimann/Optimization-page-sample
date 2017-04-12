@@ -2,7 +2,7 @@
 
 ## Viewing the website
 * Online at : https://zimann.github.io/ 
-* Locally on your machine by downloading the repository files and opening the **index.html** file in your browser
+* Locally on your machine by downloading the repository files and double-clicking the **index.html** file
 
 ## Tools Used
 * Grunt  (**Gruntfile.js** and **package.json** are in the root folder)
@@ -38,8 +38,8 @@
 
 * **JavaScript modifications**
     * Modifications have been done in two places in the main.js file and are marked with a capital **Z** at the beginninng of the comment: 
-        * The first modifications are at line: **536** and **541** 
-        * The second modifications are at line: **476**, **479** and **482**
+        * The first modifications are at line: **538**, **544**, 
+        * The second modifications are at line: **476**, **479**, **482**, **571**, **572**, **574**
     
 
  
