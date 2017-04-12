@@ -5,6 +5,17 @@
 * Optimizilla service - for image compression (Link: http://optimizilla.com/)
 * Adobe Photoshop (CS3) - for image resizing
 
+## How to use the _**Grunt**_ tool
+* You need to have **GITbash** installed and a **GIT** profile configured (https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+* Right-click on your working folder(root folder) and click **Git Bash Here**
+* Install Grunt command line interface and configure Grunt with the help of this link: https://gruntjs.com/getting-started
+* Two node package managers have been used for the minification tasks: 
+    * **grunt-contrib-uglify**
+    Link: https://www.npmjs.com/package/private-grunt-contrib-uglify
+    * **grunt-contrib-cssmin**
+    Link: https://www.npmjs.com/package/grunt-contrib-cssmin
+
+
 ### Modifications done to score above 90 on Page Speed Insights 
 
 * Resized the pizzeria original image into two separate smaller ones (360px and 720px)
@@ -22,12 +33,13 @@
    
 
 * **JavaScript modifications**
-    * Modifications have been done in two places in the main.js file and are marked with a capital **Z** at the beginninng of the comment:
+    * Modifications have been done in two places in the main.js file and are marked with a capital **Z** at the beginninng of the comment: 
         * The first modifications are at line: **536** and **541** 
         * The second modifications are at line: **476**, **479** and **482**
     
 
  
+
 
 
 
