@@ -1,11 +1,15 @@
 # Pizzeria Page Optimizations
 
+## Viewing the website
+* Online at : https://zimann.github.io/ 
+* Locally on your machine by downloading the repository files and double-clicking the **index.html** file
+
 ## Tools Used
 * Grunt  (**Gruntfile.js** and **package.json** are in the root folder)
 * Optimizilla service - for image compression (Link: http://optimizilla.com/)
 * Adobe Photoshop (CS3) - for image resizing
 
-## How to use the _**Grunt**_ tool
+##### How to use the _**Grunt**_ tool
 * You need to have **GITbash** installed and a **GIT** profile configured (https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 * Right-click on your working folder(root folder) and click **Git Bash Here**
 * Install Grunt command line interface and configure Grunt with the help of this link: https://gruntjs.com/getting-started
