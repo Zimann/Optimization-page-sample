@@ -1,7 +1,7 @@
 # Pizzeria Page Optimizations
 
 ## Viewing the website
-* Online at : https://zimann.github.io/ 
+* Online at : https://zimann.github.io/pizza_optimizations.github.io/
 * Locally on your machine by downloading the repository files and double-clicking the **index.html** file
 
 ## Tools Used
